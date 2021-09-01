@@ -40,10 +40,10 @@ class MyApp extends StatelessWidget {
                         width: 20.0,
                       ),
                       CircleAvatar(
-                        radius: 55,
+                        radius: 45,
                         backgroundColor: Color(0xff8a171a),
                         child: CircleAvatar(
-                          radius: 51,
+                          radius: 41,
                           backgroundImage: AssetImage('images/cv_pic.jpg'),
                         ),
                       ),

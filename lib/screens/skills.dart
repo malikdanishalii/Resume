@@ -26,18 +26,17 @@ class Skills extends StatelessWidget {
               height: 25.0,
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
-                Expanded(
-                  child: Text(
-                    'FLUTTER',
-                    textAlign: TextAlign.end,
-                  ),
+                Text(
+                  'FLUTTER',
+                  textAlign: TextAlign.end,
                 ),
-                SizedBox(
-                  width: 15.0,
-                ),
+                // SizedBox(
+                //   width: 13.0,
+                // ),
                 Padding(
-                  padding: const EdgeInsets.all(7.0),
+                  padding: const EdgeInsets.all(0),
                   child: LinearPercentIndicator(
                     width: 275.0,
                     lineHeight: 3.0,
@@ -49,23 +48,22 @@ class Skills extends StatelessWidget {
               ],
             ),
             SizedBox(
-              height: 5.0,
+              height: 15.0,
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
-                Expanded(
-                  child: Text(
-                    'WORDPRESS',
-                    textAlign: TextAlign.end,
-                  ),
+                Text(
+                  'WORDPRESS',
+                  textAlign: TextAlign.end,
                 ),
-                SizedBox(
-                  width: 15.0,
-                ),
+                // SizedBox(
+                //   width: 15.0,
+                // ),
                 Padding(
-                  padding: const EdgeInsets.all(5.0),
+                  padding: const EdgeInsets.all(0),
                   child: LinearPercentIndicator(
-                    width: 275.0,
+                    width: 250.0,
                     lineHeight: 3.0,
                     percent: 0.50,
                     backgroundColor: Colors.redAccent[100],
